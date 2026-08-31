@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="tipo_contenido" content="txt/html">
+    <meta name="description" content="Portal Web de ejemplo">
+    <meta name="keywords" content="ejemplo, ejercicio, prácticas, curso">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos1.css">
+    <title>Portal Web - Mi primer ejemplo</title>
+</head>
+<!--Contenido de la pagina web-->
+<body>
+
+    <!--Cabecera de la pagina web-->
+    <div id="cabecera">
+        <h1>Portal Web-Mi primer ejemoplo</h1>
+        <h2>Ejercicio de ayuda y asimilación de los conceptos de programación web</h2>
+    </div>
+    <!--Fin de cabecera-->
+
+    <!--Contenedor para la parte central-->
+    <div id="central">
+        <div id="menu">
+            <div class="txtPresentaMenu">Menu</div>
+            <hr>
+            <ul class="itemsMenu">
+                <li> <a href="#">Inicio</a> </li>
+                <li> <a href="Libros.html">Quienes Somos?</a> </li>
+                <li> <a href="Cursos.html">Productos</a> </li>
+                <li> <a href="Humor.html">Noticias</a> </li>
+            </ul>
+        </div>
+        <div id="cuerpoCentral">
+            <div class="txtConImg">
+                <p>Aprende el arte del diseño y desarrollo web, es hoy en dia un reto profesional</p>
+                <p>Puedes visitar la revista digital <a href="http://revistadigital.inesem.es"> de Inesem Business School</a> para encontrar referencias de actualidad</p>
+                <p>Puedes consultar algunos de <a href="http://revistadigital.inesem.es">nuestros cursos</a> entre los varios disponibles. Cuando tengas que usar un editor de texto recomendamos Notepad++ ó Sublime, aunque puedes usar el que conozcas y sea mas comodo para ti</p>
+
+                <a href="http://www.inesem.es/">
+                    <img src="https://www.inesem.es/themes/eudemony/logo.svg" alt="Inesem" title="Inesem, Instituto Europeo de Estudios Empresariales">
+                </a>
+                <img src="https://images.seeklogo.com/logo-png/37/1/sublime-text-logo-png_seeklogo-373309.png" alt="Sublime" title="Sublime Text, un editor de texto alternativo" style="width: 50px;">
+            </div>
+            <form name="formularioContacto" class="formularioTipo1" method="get" action="accion.html">
+                <div class="form-content">
+                    <h2>Formulario de contacto</h2>
+                    <p>Si quieres contactar con nosotros envianos este formulario relleno:</p>
+                    <label for="nombre"><span>Nombre</span><input type="text" id="nombre" name="nombre" placeholder="Tu nombre..."></label>
+                    <label for="apellido"><span>Apellidos</span><input type="text" id="apellido" name="apellido" placeholder="Tus apellidos..."></label>
+                    <label for="dirección"><span>Dirección</span><input type="text" id="dirección" name="dirección" placeholder="Tu dirección..."></label>
+                    <label for="email"><span>Email</span><input type="text" id="email" name="email" placeholder="Tu email..."></label>
+                    <label>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Cancelar">
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+<br>
+    <!--Pie de página-->
+    <div id="pieDePagina">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.rKjdc92Kds4jqNscnf0P3gHaE8?r=0&pid=Api&P=0&h=180" alt="logo propio" title="Logo ejemplo.com"><br>
+        copyrigth 2015 - 2016 miPrimerEjemplo.com
+    </div>
+
+<script src="codigo.js"></script>
+</body>
+</html>

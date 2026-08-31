@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales</title>
+</head>
+<body>
+    <h1>Accediendo...</h1>
+    <script>
+        //CONDICIONALES:
+        let respuesta;
+        respuesta = prompt('Introduzca su nombre:' , 'Nombre...');
+        if (respuesta == 'Manu') {
+            alert('Bienvenido: ' + respuesta)
+        } else {
+            alert('Usted no puede acceder, no se te ha reconocido');
+        } 
+        
+        //BUCLES:
+        // for (let i = 3; i < 15; i++) {
+        //     document.write(i);
+        // }
+
+        "<hr>"
+
+        let numero = prompt('Introduzca el numero:' );
+        let i = 1;
+        while (i < numero) {
+            document.write(i);
+            document.write("<br>");
+            i++;
+        }
+        let a = 'Manu';
+        let b = 21
+        document.write(a);
+        document.write(b);
+    </script>
+</body>
+</html>
