@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrir_Cerrar_Ventana</title>
+    
+    <script>
+
+        let nuevaVentana = null;
+
+        function abrir(){
+            nuevaVentana = window.open("", "Nueva", "width=100, height=200");
+        }
+
+        function cerrar(){
+            if(nuevaVentana != null){
+                nuevaVentana.close();
+                nuevaVentana = null;
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <button type="button" value="Abrir" onclick="abrir()">Abrir</button>
+    <button type="button" value="Cerrar" onclick="cerrar()">Cerrar</button>
+</body>
+</html>
